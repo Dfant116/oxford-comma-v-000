@@ -5,7 +5,7 @@ def oxford_comma(array)
      array.join(" and ")
    else array.size > 2
      array.pop
-     index = "starfruit"
+     index = array.pop
      array.join(", ") << ", and #{index}"
    end
 end
